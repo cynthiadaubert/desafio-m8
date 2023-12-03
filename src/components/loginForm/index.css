@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.button  {
+    background-color: #5A8FEC;
+    font-family: "Roboto";
+    border:none;
+    border-radius: 4px;
+    height: 50px;
+    width: 335px;
+    margin: 25px 0px 25px 0px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.email {
+   
+        text-align: left;
+        width: 335px;
+        color: black;
+    
+}
+
+.inp {
+        width: 335px;
+        height: 50px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-bottom: 25px;
+}

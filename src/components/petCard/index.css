@@ -1,0 +1,167 @@
+.root {
+    width: 335px;
+    height: max-content;
+    background-color: #26302E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0px 25px 0px;
+    padding: 0;
+    box-shadow: 0px 1px 4px 0px #00000040;
+    border-radius: 4px;
+  }
+
+  @media (min-width: 769px) {
+    .cont {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 16px;
+    }
+  }
+
+  .button_edit {
+    width: 100px;
+    height: 40px;
+  }
+
+  .petimg {
+    width: 320px;
+    height: 126px;
+    background-color: rgb(122, 122, 122);
+    margin: 7px 8px 0px 8px;
+    object-fit: cover;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 305px;
+    height: max-content;
+    padding-top: 15px;
+  }
+        
+  .pet_name {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700px;
+    font-style: bolder;
+  }
+
+  .pet_location {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700px;
+    font-style: bolder;
+    margin-bottom: 10px;
+  }
+
+  .box {
+    position: fixed;
+    width: 314px;
+    height: fit-content;
+    background-color: #26302E;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 0px 0px 35px;
+    padding: 0;
+    top: 0;
+    left: 0;
+  }
+
+  
+@media (min-width: 769px) {
+  .box {
+align-items: center;
+top: 50%;
+left: 50%;
+width: 400px;
+
+transform: translate(-50%,-50%);
+  }
+}
+
+
+  .report_title {
+    font-style: bolder;
+    font-weight: 800px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 35px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0px 0px 0px 20px; 
+    height: 600px;
+  }
+
+  .btn {
+    background-color: #00A884;
+    border-radius: 4px;
+    width: 276px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    font-style: bolder;
+    font-weight: 700px;
+    margin-bottom: 30px;
+  }
+
+  .inp {
+    background-color: #4A5553;
+    width: 275px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+  }
+
+  .textarea {
+    background-color: #4A5553;
+    width: 275px;
+    height: 130px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  label {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 25px; 
+  }
+          
+  .cross {
+    width: 16px;
+    height: 16px;
+    margin: 15px 15px 15px 15px;
+    padding: 0;
+    position: absolute; 
+    top: 0; 
+    right: 0;
+  }
+
+  input, textarea {
+    font-size: 20px;
+  }
+
+.message {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (min-width: 769px) {
+  .message {
+    font-size: 32px;
+  }
+}

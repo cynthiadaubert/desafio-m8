@@ -1,0 +1,132 @@
+
+.petlogo {
+    width: 335px;
+    height: 60px;
+    background-color: #26302E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.logo {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        padding-left: 20px;
+}
+
+.lines {
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        padding-right: 20px;
+}
+
+.box {
+font-family: "Poppins";
+background-color:  #26302E;
+width: 375px;
+height: 100vh;
+position: fixed;
+top: 0;
+margin: 0;
+padding: 0;
+visibility: hidden;
+}
+
+@media (min-width: 769px) {
+  .box {
+    right: 0;
+  }
+}
+
+.visible {
+    visibility:visible;
+}
+
+.box.open {
+background-color: #26302E;
+height: 100vh;
+position: fixed;
+top: 0;
+}
+
+.cross {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin: 20px;
+    right: 0;
+}
+
+.cross_close {
+        width: 25px;
+        height: 25px;
+        margin: 25px 25px;
+        padding: 0;
+       position: absolute;
+       top: 0;
+       right: 0;
+}
+
+.navhamburger {
+  display: none;
+  background-color: #26302E;
+  width: 375px;
+  height: 732px;
+  position: absolute;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999; 
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0px 50px 0px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700px;
+  font-style: bolder;
+  color: #EEEEEE;
+  margin: 45px 0px 45px 0px;
+}
+
+.userEmail {
+  color: #ffffff;
+  margin-top: 120px;
+  font-size: 18px;
+}
+
+.logout{
+  color: #3B97D3;
+  font-size: 16px;
+  text-decoration-line: underline;
+
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px 0px 10px 10px;
+    background: #26302E;
+}

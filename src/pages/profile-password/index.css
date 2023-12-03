@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.root {
+    box-sizing: border-box;
+    font-family: "Roboto";
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ccecd6;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+   
+}
+
+@media (min-width: 769px) {
+    .root {
+      margin-top: 80px;
+    }
+  }
+
+.title {
+    font-size: 42px;
+    text-align: center;
+    width: 287px;
+    height: 48px;
+    font-family: "Poppins";
+    font-style: bolder;
+    line-height: 54px;
+    color: #000000;
+    padding-bottom: 110px;
+    padding-top: 50px;
+  }
+
+
+  .btn {
+
+      background-color: #5A8FEC;
+      font-family: Roboto;
+      border:none;
+      border-radius: 4px;
+      height: 50px;
+      width: 270px;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 10px;
+      margin-bottom: 120px;
+  
+  }
+
