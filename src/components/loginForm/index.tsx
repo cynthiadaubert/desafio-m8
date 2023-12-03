@@ -15,7 +15,6 @@ export function LoginForm(){
    const handleFormSubmit = async (e)=>{
       e.preventDefault()
       const email = e.target.email.value
-      setEmail(email)
       try {
        const res = await getEmail(email) 
       if (res == null){
@@ -23,6 +22,7 @@ export function LoginForm(){
          alert("Su email no existe, por favor regístrese.")
          navigate("/register")
       }else{
+         setEmail(email)
          console.log("el email si existe")
          navigate("/signin")
       }
