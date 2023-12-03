@@ -1,5 +1,5 @@
 /* const API_BASE_URL = "http://localhost:8080"; */
-const API_BASE_URL = "https://desafio-m8-e7ec6.web.app";
+const API_BASE_URL = "https://petfinder-m7.onrender.com";
 
 // llamadas a la api, uso de localStorage
 //OPCIONAL
