@@ -1,8 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-
-const API_BASE_URL = "http://localhost:8080";
-// const BASE_URL_API = "https://pets-app-mr.herokuapp.com";
+/* const API_BASE_URL = "http://localhost:8080"; */
+const API_BASE_URL = "https://desafio-m8-e7ec6.web.app";
 
 // llamadas a la api, uso de localStorage
 //OPCIONAL
