@@ -45,7 +45,7 @@ try {
         <label className={css.email}>EMAIL</label>
         <input className={css.inp} value={email} onChange={handleInputChange} name="email" type="email" />
         <label className={css.pass} htmlFor="">CONTRASEÑA</label>
-        <input className={css.inp} name="password" type="password" />
+        <input className={css.inp} name="password" defaultValue={"password"} type="password" />
         {authError &&  <h3 className={css.alert} >Usuario o contraseña incorrectos, por favor, inténtelo de nuevo.</h3>}
         <button className={css.btn}>Acceder</button>
         </form>
