@@ -8,25 +8,6 @@ import img from "../../public/beach_day.png"
 
 
 function Home() {
-
-  const [location, setLocation] = React.useState(null);
-  useEffect(() => {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        setLocation({
-          latitude: position.coords.latitude,
-          longitude: position.coords.longitude,
-        });
-      },
-      (error) => {
-        console.error('Error getting geolocation:', error);
-      }
-    );
-  } else {
-    console.error('Geolocation is not supported by this browser.');
-  }
-}, []);
   
   return (
     <div>
