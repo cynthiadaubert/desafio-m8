@@ -33,6 +33,15 @@ body {
     padding-bottom: 10px;
   }
 
+.credentials {
+    font-size: 24px;
+    text-align: center;
+    font-style: bolder;
+    color: #6e6e6e;
+    margin: 20px 0px 0px 0px;
+    padding: 0 auto;
+  }
+
 .subtitle {
     font-size: 16px;
     margin: 0;

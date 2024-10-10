@@ -66,7 +66,8 @@ useEffect(()=>{
     setLoggedIn(false)
   } else if (userEmail == "null"){
     setLoggedIn(false)
-  } else{
+  } else if (userEmail !== null && location.pathname == "/profile"){
+    console.log("patata")
     setLoggedIn(true)
   }
 },[])

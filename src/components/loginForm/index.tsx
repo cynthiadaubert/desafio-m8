@@ -32,17 +32,17 @@ export function LoginForm(){
       }
    }
 
-   useEffect(()=>{
+/*    useEffect(()=>{
       const storedEmail = localStorage.getItem("userEmail")
       if(storedEmail){
          setEmail(storedEmail)
       }
-   },[])
+   },[]) */
 
    return (<div>
    <form onSubmit={handleFormSubmit} className={css.form}>
     <label className={css.email} htmlFor="">EMAIL</label>
-    <input className={css.inp} name="email" defaultValue="example@school.com" type="email" />
+    <input className={css.inp} name="email" type="email" />
     <button className={css.button}>Siguiente</button>
    </form>
    </div>

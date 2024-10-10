@@ -12,6 +12,7 @@ export function SignUp(){
             <Header></Header>
             <h1 className={css.title}>Iniciar sesión</h1>
             <p className={css.subtitle}>Ingresá los siguientes datos para iniciar sesión</p>
+            <p className={css.credentials}> EXAMPLE USER: example123@gmail.com / PASS: 12345 </p>
             <SignInForm></SignInForm>  
        </div>
     )
