@@ -6,15 +6,20 @@
 
 Este proyecto se basa en la geolocalización para devolver reportes de mascotas perdidas cerca de tu zona, además de registrar usuarios, modificar datos personales y enviar reportes sobre las mascotas perdidas por email. Gracias a la base de datos de Algolia, es preciso para mostrar reportes cercanos a la ubicación geográfica, y al utilizar Sendgrid se envían las actualizaciones de las mascotas reportadas con rapidez.
 
-## Deploy: https://desafio-m8-e7ec6.web.app/
+## Live view: [Deploy](https://desafio-m8-e7ec6.firebaseapp.com/login)
 
 ## Tecnologías utilizadas
 
 ✅ React --> Como framework principal
+
 ✅ React-Router-DOM --> Como enrutador de navegación  
+
 ✅ CSS modules --> Para los estilos  
+
 ✅ Firebase hosting --> Para realizar el deploy del proyecto  
+
 ✅ Webpack --> Como bundler de módulos
+
 ✅ Sequelize --> Como ORM para la base de datos
 
 ## Aprendizajes
