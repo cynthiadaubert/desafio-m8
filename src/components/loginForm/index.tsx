@@ -32,12 +32,12 @@ export function LoginForm(){
       }
    }
 
-/*    useEffect(()=>{
+/*     useEffect(()=>{
       const storedEmail = localStorage.getItem("userEmail")
       if(storedEmail){
          setEmail(storedEmail)
       }
-   },[]) */
+   },[])  */
 
    return (<div>
    <form onSubmit={handleFormSubmit} className={css.form}>

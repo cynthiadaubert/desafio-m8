@@ -59,19 +59,16 @@ const logout = ()=>{
   navigate("/")
 }
 
-// muestra opción de cerrar sesión
+// muestra opción de cerrar sesión solamente si el usuario está completamente logueado
 
-useEffect(()=>{
-  if (userEmail === null) {
-    setLoggedIn(false)
-  } else if (userEmail == "null"){
-    setLoggedIn(false)
-  } else if (userEmail !== null && location.pathname == "/profile"){
-    console.log("patata")
-    setLoggedIn(true)
+useEffect(() => {
+  if (userEmail === null || userEmail === "null") {
+    setLoggedIn(false);
+  } else if (userEmail !== null && ["/profile", "/pets", "/", "/empty","/report", "/my-reports"].includes(location.pathname)) {
+    console.log("patata");
+    setLoggedIn(true);
   }
-},[])
-
+}, [userEmail, location.pathname]); 
 
 
 return (
